@@ -21,7 +21,7 @@ namespace ListAndLoopsExample
 
             //syötä hinta ja paahto (1-5)
             //ei comppany
-            Coffee toReturn = new Coffee(merkki,hinta,paahto);
+            Coffee toReturn = new Coffee(merkki, hinta, paahto);
             toReturn.roast = (Coffee.Roast)2;
             return toReturn;
         }
