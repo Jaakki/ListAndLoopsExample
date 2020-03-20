@@ -11,6 +11,11 @@ namespace ListAndLoopsExample
         public int numero;
         public string email;
 
+        public Person()
+        {
+
+        }
+
         public Person(string etunimi, string sukunimi, int numero, string email)
         {
             this.etunimi = etunimi;

@@ -12,8 +12,12 @@ namespace ListAndLoopsExample
             var kahvi = dh.CreateCoffee();
             dh.coffees.Add(kahvi);
 
-            var paketti = new Coffee("pressa", 4.50 , Coffee.Roast.light, "joku");
+            var paketti = new Coffee("pressa", 4.50, Coffee.Roast.light, Comppany.importer);
             Console.WriteLine($"enum:{paketti.roast}");
+
+
+
+
 
 
             /*
